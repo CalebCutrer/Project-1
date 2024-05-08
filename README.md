@@ -1,5 +1,7 @@
+To get things from main into your branch:
+
 git checkout my-branch 
 
-git pull origin main 
+git pull main 
 
-git push origin my-branch
+
