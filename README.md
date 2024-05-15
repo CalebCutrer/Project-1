@@ -6,9 +6,7 @@ Focus: Analyze variables that impact an individual’s health. We plan on combin
 
 Research questions to answer: What conclusions can be drawn about external and internal forces on sleep patterns in the U.S. population?
 
-
 Limitations: These data points were partially collected during the Covid-19 pandemic and therefore have limited information from the latter part, 2019-2020, when compared to information collected between 2017-2019.
-
 
 Why: Healthcare is expensive and if there are ways to identify correlations between different attributes within a population subset, it provides an opportunity to create preventative plans.  It could benefit those who suffer from illnesses, as well as the whole of society.  Healthcare providers could plan better, educators could help establish healthy habits earlier, and families could be aware of genetic predispositions and other risk factors.   
 Dataset used: NHANES 2017-March 2020 Pre-pandemic
@@ -35,9 +33,15 @@ Gender differences revealed a .... impact on sleep patterns ....
 
 Race had limited patterns when looking at different sleep factors.  Generally speaking, across all races, fewer participants spoke to their doctor about sleep concerns no matter how much average sleep they got on work days or weekends.  One potentially interesting visual to note was that respondents who are Asian we more likely to mark themselves as "never" or "rarely" feels tired during the day when they average the same amount of sleep as the other five races that were included in the study.  
 
-The age among respondents ....
+The age and activity among respondents ....
 
 
 In the future, it could be helpful to start to combine these factors and look at the difference, for example, between active, middle-aged Asian respondents compared to active, middle-aged Mexican-American respondents.  Combining factors would create a more holistic view of Americans.  
+
+
+## Items in Project 1
+1. Datasets folder: Inside the folder, there are the original imports from the CDC website, as well as the merged files we used for the main analysis
+2. Jupyter Notebook scripts: Each group member created their own script using the base datasets and focused on comparing different elements to sleep
+3. Images folder: Once data was formatted to meet individual needs, each member created at least one visualization for their work
 
 
