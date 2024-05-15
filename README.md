@@ -18,14 +18,6 @@ https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020
 
 Goal: By using well sourced data from the CDC, we will look for connections in the data regarding indicators that might lead to a better understanding of sleep patterns for people. 
 
-Potential visualizations: Heat map? Pivot table?
+# Process: 
 
-Task breakdown:
-Formatting original dataset-Caleb
-Visualizations-
-Debugging-
 
-Tasks to do for over the weekend?:
-Saturday morning: no later than 11:30am
-Analyst: Tues, May 14 at 6:30 and slides
-Presentation: Thurs, May 16
