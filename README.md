@@ -35,7 +35,7 @@ Race had limited patterns when looking at different sleep factors.  Generally sp
 
 The age and activity among respondents ....
 
-
+### Further study of this topic:
 In the future, it could be helpful to start to combine these factors and look at the difference, for example, between active, middle-aged Asian respondents compared to active, middle-aged Mexican-American respondents.  Combining factors would create a more holistic view of Americans.  
 
 
