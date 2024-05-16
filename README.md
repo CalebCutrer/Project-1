@@ -21,10 +21,12 @@ The first step of data cleaning was finding a way to read the information from t
 One noted issue was the incorrect formatting of some variables.  Instead of the 0-9 values it showed in the original file for feeling tired, the information was displayed in scientific notation.  Brittany spent a lot of time figuring out how to export the original information again, but with the values formatted correctly.  She used an XPORT function to .... FILL IN HERE.  Moreover, there were duplicates because some respondents take more than one medication.
 We now had the corrected and cleaned dataset to start analyzing.  As a group, we chose different elements of demographics and medication to focus on, while all comparing it to sleep factors.  Because of this, we took different approaches to refining the original cleaned dataset to meet our needs.  This includes creating dictionaries for categorical variables, binning ranges, and adding/dropping columns as necessary.  
 
-## Goals:
+## Research questions to answer:
 Our focus revolved around sleep: amount (hours) of sleep during the work week, amount (hours) of sleep during the weekend, feeling tired during the day (self-evaluation), and whether or not the respondent told a doctor about sleep concerns.
 With a list of sleep factors to use, our goal was to look at specific demographic elements in comparison to these sleep factors. We were hoping to find connections between measurable factors like age, race, activity levels, gender, and number of perscriptions and their effects on sleep.  
 If there are connections or patterns, it could help others understand or plan for potential sleep disruptions.
+ 
+1. What conclusions can be drawn about external and internal forces on sleep patterns in the U.S. population?
 
 ## Analysis:
 In regards to prescription meds and its impact on sleep ....
