@@ -27,7 +27,8 @@ With a list of sleep factors to use, our goal was to look at specific demographi
 If there are connections or patterns, it could help others understand or plan for potential sleep disruptions.
  
 1. What conclusions can be drawn about external and internal forces on sleep patterns in the U.S. population?
-2. Is there a connection between age and sleep hours? Does the average sleep duration seem differ among different age groups? 
+2. Is there a connection between age and sleep hours? Does the average sleep duration seem differ among different age groups?
+3. Is there a connection between race and sleep hours? Does the average amount of sleep different races get affect their willingness to speak to a doctor about sleep disorders? 
 
 ## Analysis:
 In regards to prescription meds and its impact on sleep ....
