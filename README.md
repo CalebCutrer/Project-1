@@ -29,7 +29,8 @@ If there are connections or patterns, it could help others understand or plan fo
 1. What conclusions can be drawn about external and internal forces on sleep patterns in the U.S. population?
 2. Is there a connection between age and sleep hours? Does the average sleep duration seem differ among different age groups?
 3. Is there a connection between race and sleep hours? Does the average amount of sleep different races get affect their willingness to speak to a doctor about sleep disorders? 
-
+4. Are there any conclusions we can make regarding gender and time of sleep duration?
+   
 ## Analysis:
 In regards to prescription meds and its impact on sleep ....
 
