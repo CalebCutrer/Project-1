@@ -36,7 +36,9 @@ In regards to prescription meds and its impact on sleep ....
 
 Gender differences revealed a .... impact on sleep patterns ....
 
+#### Race and Sleep Duration & Disorders:
 Race had limited patterns when comparing length of average sleep and speaking to a doctor about sleep concerns.  Generally speaking, across all races, fewer participants spoke to their doctor about sleep concerns no matter how much average sleep they got on work days or weekends.  For example, Black respondents slept the least average amount during the week and weekends, 7.4 and 8.2 respectively, but still were less likely to bring up sleep concerns with their doctor than to share sleep concerns with a healthcare professional.  On the other end of the spectrum, the respondents with the most average sleep during the work week were White respondents with 7.8 hours and Mexican-Americans with the most average weekend sleep at 8.8 hours, but neither group were more likely to with their doctors about sleep either.  Mexican-Americans also averaged the most vigorous daily activity and that might contribute to their longer weekend sleep times, and those respondents who were most active were significantly more likely to speak with a doctor about sleep.  This might be because they are injured or sore from exercise and it could impact their ability to get enough deep sleep.  
+
 One potentially interesting visual to note was that respondents who are Asian we more likely to mark themselves as "never" or "rarely" feels tired during the day when they average the same amount of sleep as the other five races that were included in the study.  They averaged just above 1.33 for feeling tired (a 1.0 = Rarely, or 1 time a month and a 2.0 = Sometimes, or 2-4 times a month).  The next racial group was Other Hispanic at almost 1.7. White respondents averaged the most at nearly 2.0.
 
 #### Age and Sleep Duration:
