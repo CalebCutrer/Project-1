@@ -47,6 +47,6 @@ In the future, it could be helpful to start to combine these factors and look at
 ## Items in Project 1
 1. Datasets folder: Inside the folder, there are the original imports from the CDC website, as well as the merged files we used for the main analysis
 2. Jupyter Notebook scripts: Each group member created their own script using the base datasets and focused on comparing different elements to sleep
-3. Images folder: Once data was formatted to meet individual needs, each member created at least one visualization for their work
+3. Visualization folder: Once data was formatted to meet individual needs, each member created at least one visualization for their work
 
 
