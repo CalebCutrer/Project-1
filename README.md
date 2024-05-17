@@ -9,6 +9,7 @@ Main research question to answer: What patterns or correlations can be identifie
 Limitations: These data points were partially collected during the Covid-19 pandemic and therefore have limited information from the latter part, 2019-2020, when compared to information collected between 2017-2019. Not every data point was captured for all respondents (e.g. not all respondents answered all questions on the questionnaire). Therefore, the datasets used for comparison vary in sample size, leaving blank data. Pros and cons of leaving the blank data versus dropping it were discussed. Both options result in bias.
 
 Why: Healthcare is expensive and if there are ways to identify correlations between different attributes within a population subset, it provides an opportunity to create preventative plans and mitigation strategies.  It could benefit those who suffer from illness, as well as the whole of society.  Healthcare providers could treat patients optimally, educators could help establish healthy habits earlier, and families could be aware of  predispositions and other risk factors. Sleep is an important factor in determining overall health. Understanding the specific factors that influence sleep behaviors and quality could provide specific strategic approaches to further support optimal health.  
+
 Dataset used: NHANES 2017-March 2020 Pre-pandemic
 https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020
 “Demographics” “Prescription Medication” “Physical Activity” “Sleep Disorders”
@@ -16,16 +17,17 @@ https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020
 Goal: By using well-sourced, reputable and current data from the Center for Disease Control, we will perform exploratory data analysis to make interesting observations, connections and correltations between intrinsic and extrinsic variables that may lead to a better understanding of sleep habits in individuals. This provides a foundation for further exploratory data analysis.
 
 ## Process: 
-After the group spent time looking at a variety of online datasets regarding sleep, we found the CDC's website and the NHANES.  As a group we chose a few demographic points we thought would tell a story when compared to sleep habits.  Our initial interest included more options than our final dataset used.  
-The first step of data cleaning was finding a way to read the information from the CDC's website into a useable CSV.  Caleb exported out the main data and meticulously merged three different sets (demographics, medications, and sleep disorders) into one file.  He was able to rename column headers into understandable titles, too.  This was then uploaded to the GitHub main for us to use.
+After the group spent time looking at a variety of online datasets regarding sleep, we found the CDC's website and the NHANES. As a group we chose a few demographic points we thought would tell a story when compared to sleep habits.  Our initial interest included more options than our final dataset used.  
 
-One noted issue was the incorrect formatting of some variables.  Instead of the 0-9 values it showed in the original file for feeling tired, the information was displayed in scientific notation.  Brittany spent a lot of time figuring out how to export the original information again, but with the values formatted correctly.  She used an XPORT function.  Moreover, there were duplicates because some respondents take more than one medication.
+
 We now had the corrected and cleaned dataset to start analyzing.  As a group, we chose different elements of demographics and medication to focus on, while all comparing it to sleep factors.  Because of this, we took different approaches to refining the original cleaned dataset to meet our needs.  This includes creating dictionaries for categorical variables, binning ranges, and adding/dropping columns as necessary.  
 
 ### Data Export
-The first step involved downloading the datafiles from the CDC website and uploading to GitHub. The CDC website includes direct links to export datasets without the use of an API key. The datasets are .xpt files and therefore some exploration was needed to convert them to a usable format, such as csv. Once the .xpt files were downloaded, pandas was used to read in the files using pd.read_sas. Caleb meticulously merged three different sets (demographics, medications, and sleep disorders) into one file and renamed column headers for readability based on the group consensus.  The final merged dataset was read in as a csv file. This was then uploaded to the GitHub main for group use. A .gitignore file was created. The code for this work is found in FinalMerged.ipynb.
+The first step involved downloading the datafiles from the CDC website and uploading to GitHub. The CDC website includes direct links to export datasets without the use of an API key. The datasets are .xpt files and therefore some exploration was needed to convert them to a usable format, such as csv. Once the .xpt files were downloaded, pandas was used to read in the files using pd.read_sas. Caleb meticulously merged three different sets (demographics, medications, and sleep disorders).  The final merged dataset was read in as a csv file. This was then uploaded to the GitHub main for group use. A .gitignore file was created. The code for this work is found in FinalMerged.ipynb.
 
 ### Data Cleaning
+Caleb further cleaned the data by renaming all the variables for readabiilty. The dataset was trimmed to 15560 rows across 15 columns.
+
 Melissa created dictionaries to re-code numerical variables into categorical variables (e.g. for the race category the dictionary recoded 1.0 : "Mex-Am"). Melissa further cleaned the merged data by dropping unnecessary columns based on the focused analyses we were planning. The code for this work is found in FinalMerged.ipynb.
 
 ### Data Debugging
