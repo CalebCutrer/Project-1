@@ -19,9 +19,6 @@ Goal: By using well-sourced, reputable and current data from the Center for Dise
 ## Process: 
 After the group spent time looking at a variety of online datasets regarding sleep, we found the CDC's website and the NHANES. As a group we chose a few demographic points we thought would tell a story when compared to sleep habits.  Our initial interest included more options than our final dataset used.  
 
-
-We now had the corrected and cleaned dataset to start analyzing.  As a group, we chose different elements of demographics and medication to focus on, while all comparing it to sleep factors.  Because of this, we took different approaches to refining the original cleaned dataset to meet our needs.  This includes creating dictionaries for categorical variables, binning ranges, and adding/dropping columns as necessary.  
-
 ### Data Export
 The first step involved downloading the datafiles from the CDC website and uploading to GitHub. The CDC website includes direct links to export datasets without the use of an API key. The datasets are .xpt files and therefore some exploration was needed to convert them to a usable format, such as csv. Once the .xpt files were downloaded, pandas was used to read in the files using pd.read_sas. Caleb meticulously merged three different sets (demographics, medications, and sleep disorders).  The final merged dataset was read in as a csv file. This was then uploaded to the GitHub main for group use. A .gitignore file was created. The code for this work is found in FinalMerged.ipynb.
 
